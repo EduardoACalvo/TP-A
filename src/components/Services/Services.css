@@ -1,0 +1,96 @@
+.servicios {
+    padding: 5rem;
+    background-color: #1F2238;
+}
+
+.frame-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sp-titulo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffc422;
+    line-height: 0.1rem;
+    margin: 1rem 0 1rem;
+}
+
+.sp-titulo span {
+    background: #1F2238;
+    color: #ffc422;
+    font-size: 1rem;
+}
+
+.sh2-titulo {
+    color: white;
+    font-size: 3rem;
+}
+
+.cuadros-servicios-r1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* .cuadros-servicios-r2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.cuadro-s1 {
+    background-color: #24263b;
+    height: 30rem;
+    width: 36rem;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuadro-x {
+    width: 30rem;
+    height: 27rem;
+    /* height: 30rem; */
+}
+
+.cuadro-x>h3 {
+    font-size: 2rem;
+    color: #ffc422;
+}
+
+.cuadro-x {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.cuadro-x>img {
+    height: 4rem;
+    border-radius: 100%;
+    border: 0.1rem white solid;
+}
+
+
+@media (max-width: 850px) {
+    .cuadros-servicios-r1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .cuadro-s1 {
+        border-radius: 2rem;
+        /* Aplico este efecto en las 4 esquinas, por una cuestion de gusto personal*/
+    }
+}

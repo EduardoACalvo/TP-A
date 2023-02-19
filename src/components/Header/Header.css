@@ -1,0 +1,109 @@
+header {
+    padding-top: 1rem;
+    background-color: #1F2238;
+    margin: auto;
+}
+
+
+.frame-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2238;
+    align-items: center;
+}
+
+nav>a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.btn-cv {
+    border-radius: 0.5rem;
+    background-color: #ffc422;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-cv:hover {
+    background-color: white;
+    color: #ffc422;
+    text-decoration: none;
+}
+
+.navHam {
+    position: absolute;
+    background-color: #1F2238;
+    border: 0.5rem inset #ffc422;
+    right: 3%;
+    height: 29rem;
+    width: 12.5rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.navHam>a {
+    top: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.navHam>a:hover {
+    text-decoration: underline;
+}
+
+.btnHam>input {
+    display: none;
+}
+
+
+
+
+
+@media(max-width:47rem) {
+    nav {
+        display: none;
+    }
+
+    .iconoHam {
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        /* color: white; */
+        color: #ffc422;
+        background-color: #1F2238;
+        cursor: pointer;
+        right: 1.2rem;
+        top: 2rem;
+    }
+}
+
+@media(min-width:47rem) {
+    .iconoHam {
+        display: none;
+    }
+
+    .btnHam {
+        display: none;
+    }
+
+}

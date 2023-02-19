@@ -1,0 +1,72 @@
+.portfolio {
+    padding: 5rem;
+    background-color: #24263b;
+}
+
+.frame-portfolio {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame-portfolio>h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.barra-portfolio {
+    margin: 2rem;
+}
+
+.barra-portfolio>a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    margin: 02rem;
+    font-weight: 600;
+}
+
+.barra-portfolio>a:hover {
+    text-decoration: underline;
+}
+
+.galeria {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    /* justify-content: space-between;  rompe el center wrap   */
+}
+
+.galeria>a>img {
+    border-radius: 2rem;
+}
+
+.galeria>a>img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.galeria>a>img {
+    max-width: 375px;
+    padding: 1rem;
+}
+
+.btn-gal {
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    background-color: #ffc422;
+    border-color: #ffc422;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.btn-gal:hover {
+    background-color: white;
+    color: #ffc422;
+    border-color: white;
+    text-decoration: none;
+}

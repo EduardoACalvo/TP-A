@@ -1,0 +1,129 @@
+.opiniones {
+    padding: 5rem;
+    background-color: #1F2238;
+}
+
+.frame-opiniones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulos-opiniones {
+    margin-bottom: 5rem;
+}
+
+.op-titulo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffc422;
+    line-height: 0.1rem;
+    margin: 1rem 0 1rem;
+}
+
+.op-titulo span {
+    background: #1F2238;
+    color: #ffc422;
+    font-size: 1rem;
+}
+
+.oh2-titulo {
+    color: white;
+    font-size: 3rem;
+}
+
+.cuadros-opiniones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cuadro-o {
+    background-color: #24263b;
+    height: 20rem;
+    width: 36rem;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2.2rem;
+}
+
+.cuadro-o3 {
+    background-color: #24263b;
+    height: 20rem;
+    width: 36rem;
+    margin-top: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuadro-ox {
+    height: 25rem;
+    width: 33rem;
+}
+
+.cuadro-ox>h3 {
+    font-size: 2rem;
+    color: #ffc422;
+}
+
+.cuadro-ox {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.linea-titulo-cuadro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linea-titulo-cuadro>i {
+    font-size: 5rem;
+    color: #ffc422;
+}
+
+.foto-nombre-cargo {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-nombre-cargo>img {
+    margin-right: 1rem;
+}
+
+.foto-nombre-cargo>img {
+    height: 4rem;
+    border-radius: 100%;
+    border: 0.1rem white solid;
+}
+
+.nombre-cargo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-cargo>h3 {
+    color: white;
+}
+
+
+@media (max-width: 860px) {
+    .cuadros-opiniones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

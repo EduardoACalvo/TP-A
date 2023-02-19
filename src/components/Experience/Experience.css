@@ -1,0 +1,146 @@
+.experiencia {
+    padding: 5rem;
+    background-color: #1F2238;
+}
+
+.frame-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulos-experiencia {
+    margin-bottom: 5rem;
+}
+
+.ep-titulo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.1rem solid #ffc422;
+    line-height: 0.1rem;
+    margin: 1rem 0 1rem;
+}
+
+.ep-titulo span {
+    background: #1F2238;
+    color: #ffc422;
+    font-size: 1rem;
+}
+
+.eh2-titulo {
+    color: white;
+    font-size: 3rem;
+}
+
+.cuadro-experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exp-left {
+    width: 40%;
+    margin-bottom: 5rem;
+}
+
+.exp-left>p {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.exp-right {
+    width: 40%;
+    margin-bottom: 5rem;
+}
+
+.titulo-porcentaje {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo-porcentaje>p {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.titulo-porcentaje>.nonegrita {
+    font-weight: 300;
+}
+
+.barra-skills {
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: white;
+}
+
+.html {
+    width: 85%;
+    background-color: #ffc422;
+    border-radius: 2rem;
+}
+
+.js {
+    width: 65%;
+    background-color: #ffc422;
+    border-radius: 2rem;
+}
+
+.php {
+    width: 90%;
+    background-color: #ffc422;
+    border-radius: 2rem;
+}
+
+.python {
+    width: 90%;
+    background-color: #ffc422;
+    border-radius: 2rem;
+}
+
+.linux {
+    width: 99%;
+    background-color: #ffc422;
+    border-radius: 2rem;
+}
+
+.btn-exp {
+    border-radius: 0.5rem;
+    background-color: #ffc422;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+@media(max-width:47rem) {
+
+    .cuadro-experiencia {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .exp-left {
+        width: 100%;
+    }
+
+    .exp-right {
+        width: 100%;
+    }
+}
