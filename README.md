@@ -8,3 +8,4 @@ Usando el framework de React realice una landing page del tipo Portafolio Person
 https://www.behance.net/gallery/161924919/Personal-portfolio-website-design?tracking_source=search_projects_published_date%7Cportfolio+design+website
 
 
+/*/ Deply hecho con Vercel
